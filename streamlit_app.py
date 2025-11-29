@@ -390,5 +390,5 @@ def display_downloads():
             mime="text/csv"
         )
 
-if _name_ == "_main_":
+if _name_ == "__main__":
     main()
