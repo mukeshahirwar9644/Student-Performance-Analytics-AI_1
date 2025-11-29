@@ -1,0 +1,49 @@
+# Environment variables
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Data files
+data/
+*.csv
+*.xlsx
+
+# Output files
+output/
+logs/
+*.log
+
+# Credentials
+credentials.json
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment
+deployment/
+
+# Test results
+test_results_*.json
+
+
