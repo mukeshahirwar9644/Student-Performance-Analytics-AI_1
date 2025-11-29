@@ -12,7 +12,7 @@ from datetime import datetime
 import sys
 
 # Add current directory to path for imports
-sys.path.append(str(Path(_file_).parent))
+sys.path.append(str(Path(__file__).parent))
 
 from kaggle_loader import fetch_kaggle_dataset, validate_data
 from data_processor import process_student_data
